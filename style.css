@@ -1,0 +1,12 @@
+.logo {
+    width: 100px;
+    float: center;
+
+}
+em {
+    color: red;
+    font-weight: bold;
+}
+body {
+    background-image: "images/toybackground1.jpg";
+}
