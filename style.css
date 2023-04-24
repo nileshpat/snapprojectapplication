@@ -3,12 +3,26 @@
     float: center;
 
 }
+.backgrounds {
+    width: 300px;
+}
+
+
 em {
     color: red;
     font-weight: bold;
 }
 body {
     background-image: "images/toybackground1.jpg";
+}
+.websitebutton {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    margin: 50px;
+    border: 10px;
+    background-color: rgb(56, 56, 215);
+
 }
 .box {
     height: 100px;
@@ -17,4 +31,38 @@ body {
     margin: 50px;
     border: 10px solid black;
     background-color: red;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 2fr  2fr;
+    grid-template-rows: 300px 300px;
+}
+.LEGOBox {
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid red;
+    
+}
+.PokeBox {
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid blue;
+}
+.Boardgamebox {
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid yellow;
+}
+.phonebox{
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 10px solid green;
 }
