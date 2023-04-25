@@ -31,20 +31,20 @@ body {
     height: 150px;
     width: 1100px;
     padding: 20px;
-    margin: 50px;
+    margin: auto;
     border: 10px solid rgb(0, 30, 128);
     background-color: rgb(129, 129, 232);
 }
 .grid {
     display: grid;
-    grid-template-columns: 2fr  2fr;
+    grid-template-columns: auto  auto;
     grid-template-rows: 300px 300px;
 }
 .LEGOBox {
     height: 200px;
     width: 300px;
     padding: 20px;
-    margin: 50px;
+    margin: auto;
     border: 10px solid red;
     
 }
@@ -52,20 +52,20 @@ body {
     height: 200px;
     width: 300px;
     padding: 20px;
-    margin: 50px;
+    margin: auto;
     border: 10px solid blue;
 }
 .Boardgamebox {
     height: 200px;
     width: 300px;
     padding: 20px;
-    margin: 50px;
+    margin: auto;
     border: 10px solid yellow;
 }
 .phonebox{
     height: 200px;
     width: 300px;
     padding: 20px;
-    margin: 50px;
+    margin: auto;
     border: 10px solid green;
 }
